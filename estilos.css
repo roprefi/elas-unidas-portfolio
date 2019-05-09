@@ -1,0 +1,107 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+ }
+ 
+ body {
+    background-image: url("6.jpg.");
+    font-family: 'Quicksand', Arial, Helvetica, sans-serif;
+    background-color: ghostwhite;
+   
+ }
+ 
+ a {
+    text-decoration: none;
+ }
+ 
+ /* FONTS */
+ h1 {
+    color: #000;
+    font-size: 40px;
+    font-weight: 600;
+    
+ }
+ 
+ h2 {
+    color: #80995b;  
+    font-size: 25px;
+    font-weight: lighter;
+ }
+ 
+ /* SEÇÃO SOBRE */
+ .secao-sobre {
+    background-color: rgb(240, 211, 233);
+    width: 600px;
+    margin: 0 auto;
+ }
+ 
+ .sobre-conteudo__img {
+    margin-top: 80px;
+    border-radius: 100%;
+    max-width: 150px;
+ } 
+ 
+   
+ .sobre-conteudo {
+    /* font-family: 'Lato', sans-serif; */
+    text-align: center;
+ }
+ 
+ .sobre-conteudo__redes-sociais {
+    text-align: center;
+    margin-top: 100px;
+    padding-bottom: 90px;
+   
+ }
+ 
+ .sobre-conteudo__redes-sociais i {
+    font-size: 60px;
+    width: 87px;
+    height: 86px;
+    margin-left: 40px;
+    filter: grayscale(100%);
+ 
+ }
+ .sobre-conteudo__redes-sociais i:hover{
+  color: grey;
+ }
+ 
+ strong{
+  color: #B3E6D8;
+ }
+ 
+ 
+ @media only screen and (max-width: 600px) {
+     .secao-sobre {background: red;}
+ }
+ 
+ /* Small devices (portrait tablets and large phones, 600px and up) */
+ @media only screen and (min-width: 600px) {
+     .esecao-sobre {background: green;}
+ }
+ 
+ /* Medium devices (landscape tablets, 768px and up) */
+ @media only screen and (min-width: 768px) {
+     .secao-sobre {background: blue;}
+ } 
+ 
+ /* Large devices (laptops/desktops, 992px and up) */
+ @media only screen and (min-width: 992px) {
+     .secao-sobre {background: orange;}
+ } 
+ 
+ /* Extra large devices (large laptops and desktops, 1200px and up) */
+ @media only screen and (min-width: 1200px) {
+     .secao-sobre {background: whitesmoke;}
+ }
+ 
+ 
+ /* :: selection{} Ele serve para estilizar o texto quando está selecionado */
+ ::selection{
+  color:wheat;
+  background-color: purple;
+ }
+ img:active {
+  background-color: plum;
+ }
+  
